@@ -66,25 +66,25 @@ Al iniciarse, mostrará el siguiente mensaje en la terminal:
 (+) Se inició el KeyLogger
 ```
 
-![Inicio del KeyLogger](./img_heylogger/start.png)
+![Inicio del KeyLogger](./img_keylogger/start.png)
 
 ---
 
 ## ⏹️ 2️⃣ Cerrar el KeyLogger  
 Para **detener la ejecución**, simplemente presiona la tecla `ESC`. Esto cerrará el programa inmediatamente.  
 
-![Cerrar KeyLogger con ESC](./img_heylogger/prueba.png)
+![Cerrar KeyLogger con ESC](./img_keylogger/prueba.png)
 
 ---
 
 ## 📩 3️⃣ Enviar el registro por correo  
 Si presionas la tecla `F11`, el KeyLogger **enviará el archivo `log.txt` a través de un correo electrónico**.  
 
-![Correo recibido con log.txt](./img_heylogger/email.png)
+![Correo recibido con log.txt](./img_keylogger/email.png)
 
 ---
 
-![Correo recibido con log.txt](./img_heylogger/prueba_email.png)
+![Correo recibido con log.txt](./img_keylogger/prueba_email.png)
 
 # 🛠️ Crear un Archivo Ejecutable (.exe) con PyInstaller
 
