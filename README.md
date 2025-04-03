@@ -37,6 +37,7 @@ Después de instalar las dependencias, verifica que se hayan instalado correctam
 
 Abre el archivo y reemplaza los siguientes valores con tu información:
 
+Como configurar el email para que puedas enviar correos: Link de Youtube[https://www.youtube.com/shorts/Tuyai2xNwvE]
 ```python
 mensaje["From"] = "tucorreo@gmail.com"
 mensaje["To"] = "destinatario@gmail.com"
@@ -65,38 +66,25 @@ Al iniciarse, mostrará el siguiente mensaje en la terminal:
 (+) Se inició el KeyLogger
 ```
 
-![Inicio del KeyLogger](https://via.placeholder.com/800x400?text=Inicio+del+KeyLogger)
+![Inicio del KeyLogger](./img_heylogger/start.png)
 
 ---
 
 ## ⏹️ 2️⃣ Cerrar el KeyLogger  
 Para **detener la ejecución**, simplemente presiona la tecla `ESC`. Esto cerrará el programa inmediatamente.  
 
-![Cerrar KeyLogger con ESC](https://via.placeholder.com/800x400?text=Cerrar+KeyLogger+con+ESC)
+![Cerrar KeyLogger con ESC](./img_heylogger/prueba.png)
 
 ---
 
 ## 📩 3️⃣ Enviar el registro por correo  
 Si presionas la tecla `F11`, el KeyLogger **enviará el archivo `log.txt` a través de un correo electrónico**.  
 
-![Correo recibido con log.txt](https://via.placeholder.com/800x400?text=Correo+con+Log+Adjunto)
+![Correo recibido con log.txt](./img_heylogger/email.png)
 
 ---
 
-## 🛠️ Compilar a .exe  
-Para convertir este script en un ejecutable `.exe`, usa el siguiente comando:  
-
-```bash
-pyinstaller --onefile --noconsole KeyLogger_Mail.py
-```
-
-Antes de compilar, **desactiva el antivirus**, ya que podría eliminar el ejecutable.  
-
-![Desactivar antivirus](https://via.placeholder.com/800x400?text=Desactivar+Antivirus)
-
-
-
-Si todo está bien, ya puedes ejecutar el script sin problemas. 🚀
+![Correo recibido con log.txt](./img_heylogger/prueba_email.png)
 
 # 🛠️ Crear un Archivo Ejecutable (.exe) con PyInstaller
 
@@ -112,7 +100,7 @@ pip install pyinstaller
 
 🔹 Desactiva temporalmente la protección en tiempo real de tu antivirus antes de ejecutar el siguiente comando puede saltar un error asi.
 
-![Desactivar Antivirus](./keylogger_antivirus.png)
+![Desactivar Antivirus](./img_heylogger/keylogger_antivirus.png)
 
 ### 🔹 Generar el Archivo .exe
 
