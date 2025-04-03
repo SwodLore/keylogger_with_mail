@@ -63,11 +63,17 @@ Si todo está bien, ya puedes ejecutar el script sin problemas. 🚀
 
 Para convertir el script en un archivo ejecutable `.exe`, es necesario utilizar `pyinstaller`. Antes de proceder, **desactiva tu antivirus**, ya que podría detectar el keylogger como una amenaza y eliminarlo.
 
+🔹 Instalar pyinstaller
+
+```bash
+pip install pyinstaller
+```
+
 ### 🚨 Desactivar Antivirus
 
 🔹 Desactiva temporalmente la protección en tiempo real de tu antivirus antes de ejecutar el siguiente comando puede saltar un error asi.
 
-![Desactivar Antivirus](./img/alerta.png)
+![Desactivar Antivirus](./img/keylogger_antivirus.png)
 
 ### 🔹 Generar el Archivo .exe
 
