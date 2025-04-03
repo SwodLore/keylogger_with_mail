@@ -73,7 +73,7 @@ pip install pyinstaller
 
 🔹 Desactiva temporalmente la protección en tiempo real de tu antivirus antes de ejecutar el siguiente comando puede saltar un error asi.
 
-![Desactivar Antivirus](./img/keylogger_antivirus.png)
+![Desactivar Antivirus](./keylogger_antivirus.png)
 
 ### 🔹 Generar el Archivo .exe
 
