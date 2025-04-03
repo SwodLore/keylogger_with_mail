@@ -58,3 +58,20 @@ pip list | grep -E "pynput|smtplib|email"
 ```
 
 Si todo está bien, ya puedes ejecutar el script sin problemas. 🚀
+
+# 🛠️ Crear un Archivo Ejecutable (.exe) con PyInstaller
+
+Para convertir el script en un archivo ejecutable `.exe`, es necesario utilizar `pyinstaller`. Antes de proceder, **desactiva tu antivirus**, ya que podría detectar el keylogger como una amenaza y eliminarlo.
+
+### 🚨 Desactivar Antivirus
+
+🔹 Desactiva temporalmente la protección en tiempo real de tu antivirus antes de ejecutar el siguiente comando puede saltar un error asi.
+
+![Desactivar Antivirus](./img/alerta.png)
+
+### 🔹 Generar el Archivo .exe
+
+Ejecuta el siguiente comando en la terminal dentro de la carpeta donde se encuentra `KeyLogger_Mail.py`:
+
+```bash
+pyinstaller --onefile --noconsole keylogger.py
